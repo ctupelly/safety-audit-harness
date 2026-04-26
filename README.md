@@ -56,7 +56,6 @@ See [`docs/governance_checklist.md`](docs/governance_checklist.md) for the deplo
 ```
 safety-audit/
 ├── README.md                  # this file
-├── PLAN.md                    # 8-hour build plan
 ├── requirements.txt
 ├── .env.example
 ├── configs/
@@ -86,4 +85,4 @@ MIT. This harness produces harmful prompts and model responses to those prompts,
 
 ## Acknowledgements
 
-Built during the application window for the [Anthropic Fellows Program](https://alignment.anthropic.com/2025/anthropic-fellows-program-2026/). Uses StrongREJECT prompts and common public jailbreak templates. LLM-as-judge methodology draws on Zheng et al. 2023 and follow-on work.
+Uses StrongREJECT prompts and common public jailbreak templates. LLM-as-judge methodology draws on Zheng et al. 2023 and follow-on work.
